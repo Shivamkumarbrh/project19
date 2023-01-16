@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Solway', serif;
+    font-family:"Lato", sans-serif
+}
+.navbar{
+    display: flex;
+    box-sizing: border-box;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    background-color: rgb(240, 240, 240);
+}
+.navbar a{
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px 0px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #aaa;
+}
+.font-page{
+    width:70%;
+    position: relative;
+    left: 15%;
+    top: 5vh;
+    padding: 30px 0px;
+}
+.font-page h2{
+
+    font-size: 40px;
+}
+.font-page p{
+    padding: 20px 0px;
+}
+.slide-containe{
+   width: 90%;
+}
+.mySlide img{
+    width: 100%;
+    margin-bottom: -27px;
+    
+    
+}
+.btn{
+    position: absolute;
+    bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 14px;
+    width:100%;
+    border: none;
+    box-sizing: border-box;
+    align-content: space-between;
+    background-color: #333;
+    justify-content: space-between;
+}
+.btn i{
+    background-color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    /* color: #aaa; */
+}
+.btn i:hover{
+    background-color: skyblue;
+}
+.middle i{
+    background-color:#333;
+    border-radius: 0%;
+    margin: 0px;
+    color: white;
+    font-size: 25px;
+    padding: 0px 2px;
+}
+.middle i:hover{
+    color: white;
+    background-color: none;
+}

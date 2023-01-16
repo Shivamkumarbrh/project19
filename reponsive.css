@@ -1,0 +1,73 @@
+@media screen and (max-width:1120px) {
+    .font-page{
+        width: 94%;
+        left: 3%;
+    } 
+    .offer{
+        width: 94%;
+        left: 3%;
+    }
+    .offer h2{
+        width: 20%;
+    }
+    .offer-content-box{
+        width: 25%;
+    }
+    .pricing{
+        width: 94%;
+        left: 3%;
+        /* justify-content: space-between; */
+    }
+    .price-box{
+        width: 32%;
+    }
+    .intro{
+        width: 96%;
+        left: 2%;
+    }
+    .intro h2{
+        width:15%;
+    }
+    .intro-box{
+        width: 31%;
+       
+    }
+    .contact-us{
+        left: 3%;
+        width: 94%;
+    }
+    .contact-us h2{
+        width: 15%;
+    }
+}
+@media screen and (max-width:992px){
+    .offer-content-box{
+        width: 50%;
+    }
+    .offer h2{
+        width: 40%;
+    }
+    .intro-box{
+        width: 31%;
+       
+    }
+    .intro h2{
+        width:35%;
+    }
+    .contact-us h2{
+        width: 35%;
+    }
+}
+@media screen and (max-width:600px){
+    .offer-content-box{
+        width: 100%;
+    }
+    .price-box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .intro-box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
