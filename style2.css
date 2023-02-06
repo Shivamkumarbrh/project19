@@ -1,4 +1,4 @@
-.offer{
+.offer {
     width: 70%;
     left: 15%;
     display: flex;
@@ -6,105 +6,129 @@
     position: relative;
     margin: 60px 0px 0px 0px;
 }
-.offer h2{
+
+.offer h2 {
     text-align: center;
     padding: 15px 0px;
     font-size: 25px;
-    width: 20%;
+    width: auto;
     margin: 0px auto;
     border-bottom: 5px solid #333;
 }
-.offer-content{
+
+.offer-content {
     display: flex;
     flex-wrap: wrap;
     padding: 25px 0px;
 }
-.offer-content-box{
+
+.offer-content-box {
     width: 25%;
     box-sizing: border-box;
     padding: 20px 0px;
 }
-.offer-content-box h2{
+
+.offer-content-box h2 {
     border: none;
     padding: 5px 15px;
     text-align: left;
     margin: 0px;
 }
-.offer-content-box p{
+
+.offer-content-box p {
     padding: 10px 15px;
 }
-#o-first{
+
+#o-first {
     background-color: #ddd;
 }
-#o-second{
+
+#o-second {
     background-color: #aaa;
 }
-#o-third{
+
+#o-third {
     color: white;
     background-color: #333;
 }
-#o-fourth{
+
+#o-fourth {
     color: white;
     background-color: black;
 }
-.pricing{
+
+.pricing {
     width: 70%;
     left: 15%;
     top: 7vh;
     position: relative;
 }
-.pricing h2{
+
+.pricing h2 {
     text-align: center;
     padding: 20px 0px;
     font-size: 25px;
 }
-.pricing p{
+
+.pricing p {
     text-align: center;
 }
-.pricing-box{
+
+.pricing-box {
     padding: 50px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.price-box{
+
+.price-box {
     width: 32.5%;
     /* border: 1px solid #ddd; */
 }
-.price-box li{
+
+.price-box li {
     text-align: center;
     padding: 20px 0px;
     list-style: none;
     border: 1px solid #ddd;
 }
-#first,#second,#third{
+
+#first,
+#second,
+#third {
     background-color: black;
     color: white;
     font-size: 25px;
     padding: 30px 0px;
 }
-#second{
+
+#second {
     background-color: #333;
 }
-.last{
+
+.last {
     padding: 30px 0px;
     background-color: #ddd;
 }
-.price{
+
+.price {
     font-size: 30px;
     padding: 5px 0px;
 }
-li button{
+
+li button {
     padding: 12px 20px;
     border: none;
     background-color: rgb(28, 191, 28);
     color: white;
 }
-li button:hover{
+
+li button:hover {
     background-color: #aaa;
     cursor: pointer;
 }
-.price-box:hover{
-    
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.155),0px 2px 10px 0px rgba(0, 0, 0, 0.155) ;
+
+.price-box:hover {
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.155), 0px 2px 10px 0px rgba(0, 0, 0, 0.155);
 }
